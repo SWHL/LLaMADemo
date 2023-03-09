@@ -11,6 +11,26 @@
 #### Use
 1. Download the pretrained_model.
     - BitTorrent link: `magnet:?xt=urn:btih:ZXXDAUWYLRUXXBHUYEMS6Q5CE5WA3LVA&dn=LLaMA`
+    - The final directory:
+        ```text
+        .
+        ├── inference.py
+        ├── llama
+        │   ├── generation.py
+        │   ├── __init__.py
+        │   ├── model_parallel.py
+        │   ├── model_single.py
+        │   └── tokenizer.py
+        ├── LLaMA
+        │   ├── 7B
+        │   │   ├── checklist.chk
+        │   │   ├── consolidated.00.pth
+        │   │   └── params.json
+        │   ├── tokenizer_checklist.chk
+        │   └── tokenizer.model
+        ├── requirements.txt
+        └── webapp_single.py
+        ```
 2. Install the related packages.
     ```shell
     pip install -r requirements.txt
