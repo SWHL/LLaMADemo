@@ -58,6 +58,8 @@ def get_args():
                         default="/llama_data/7B")
     parser.add_argument("--tokenizer_path", type=str,
                         default="/llama_data/tokenizer.model")
+    parser.add_argument('--server_name', type=str, default='127.0.0.1')
+    parser.add_argument('--server_port', type=int, default=7806)
     return parser.parse_args()
 
 
@@ -92,4 +94,7 @@ if __name__ == '__main__':
         allow_flagging='never',
     )
 
-    demo.launch(share=True, server_port=7860, enable_queue=True)
+    demo.launch(share=True,
+                server_naem=args.server_name,
+                server_port=args.server_port,
+                enable_queue=True)

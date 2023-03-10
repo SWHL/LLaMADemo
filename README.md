@@ -42,7 +42,10 @@
         ```
     - Run by Gradio UI
         ```shell
-        python webapp_single.py
+        python webapp_single.py --ckpt_dir LLaMA/7B \
+                                --tokenizer_path LLaMA/tokenizer.model \
+                                --server_name 127.0.0.1 \
+                                --server_port 7806
         ```
 
 4. Gradio Result
