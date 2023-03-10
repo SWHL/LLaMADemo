@@ -46,6 +46,7 @@
         ```
 
 4. Gradio Result
+   - Open `http://127.0.0.1:7860` to enjoy it.
     <div align="center">
         <img src="./assets/GradioUI.png" width="100%" height="100%">
     </div>
