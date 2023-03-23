@@ -1,4 +1,8 @@
 #### LLaMA Demo of 7B
+<p>
+    <a href=""><img src="https://img.shields.io/badge/Python->=3.8,<=3.10-aff.svg"></a>
+</p>
+
 - 🎟Model from: [llama](https://github.com/facebookresearch/llama)
 - 🀄Code from：[pyllama](https://github.com/juncongmoo/pyllama)
 - 📌FAQ：[FAQ](https://github.com/facebookresearch/llama/blob/main/FAQ.md#2)
