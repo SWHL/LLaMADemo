@@ -3,3 +3,4 @@ fairscale
 fire
 sentencepiece
 gradio
+hiq-python>=1.1.9
